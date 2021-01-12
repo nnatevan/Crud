@@ -1,7 +1,5 @@
 package az.rest.app;
 
-import org.springframework.boot.diagnostics.FailureAnalysis;
-import org.springframework.boot.diagnostics.FailureAnalysisReporter;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
