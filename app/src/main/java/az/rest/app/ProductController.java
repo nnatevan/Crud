@@ -14,8 +14,7 @@ public class ProductController {
     }
 
     @GetMapping("/product")
-    public List<Product> getProductList(@RequestParam String consumerKey) {
-        log.info("Consumer: {}", consumerKey);
+    public List<Product> getProductList() {
         return productService.findAll();
     }
 
